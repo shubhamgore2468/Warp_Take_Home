@@ -12,7 +12,7 @@ _PROVIDERS = {
     "groq": {
         "base_url": "https://api.groq.com/openai/v1",
         "api_key_env": "GROQ_API_KEY",
-        "default_model": "openai/gpt-oss-120b",
+        "default_model": "groq/compound-mini",
     },
     "gemini": {
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
@@ -28,6 +28,11 @@ _PROVIDERS = {
         "base_url": "http://localhost:11434/v1",
         "api_key_env": None,
         "default_model": "llama3.1",
+    },
+    "nvidia": {
+        "base_url": "https://integrate.api.nvidia.com/v1",
+        "api_key_env": "NVIDIA_API_KEY",
+        "default_model": "openai/gpt-oss-120b",
     },
 }
 
@@ -72,4 +77,4 @@ class LLMClient:
 
 
 def get_llm_client() -> LLMClient:
-    return LLMClient()
+    return LLMClient("nvidia")

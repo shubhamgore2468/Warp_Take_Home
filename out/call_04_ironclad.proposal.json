@@ -1,0 +1,120 @@
+{
+    "call_id": "call_04_ironclad",
+    "customer": {
+        "company": "Ironclad Fabrication",
+        "contact": null,
+        "industry": "Steel fabrication"
+    },
+    "deal_summary": "Ironclad Fabrication needs a reliable service for their finished small steel parts, shipping nine palletized boxes per load from Houston to San Antonio about twenty times a month, with inside\u2011delivery staging at the San Antonio shop. Their current carrier is unreliable, and they want a clear, dedicated solution for this lane.",
+    "lanes": [
+        {
+            "origin_metro": "Houston",
+            "origin_state": "TX",
+            "dest_metro": "San Antonio",
+            "dest_state": "TX",
+            "lane_id": "L044",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 9.0,
+            "weight_lb_per_pallet": 800.0,
+            "weight_lb_per_shipment": 7200.0,
+            "shipments_per_month": 20.0,
+            "service_level": "STANDARD",
+            "accessorials": [
+                "INSIDE_DEL"
+            ],
+            "mode_quoted": "LTL",
+            "mode_alternatives": [],
+            "transit_days": 1.0,
+            "rationale": "The shipment is palletized, moderate\u2011weight (\u2248800\u202flb per pallet) and volume (9 pallets per load, 20 loads/month), making standard LTL the most cost\u2011effective mode, and the required inside\u2011delivery service aligns with our STANDARD service level.",
+            "pricing": {
+                "linehaul": 576.65,
+                "fuel_surcharge": 106.68,
+                "accessorials": [
+                    {
+                        "code": "INSIDE_DEL",
+                        "amount": 118.0
+                    }
+                ],
+                "accessorials_total": 118.0,
+                "shipment_subtotal": 801.33,
+                "discount_pct": 0.0,
+                "discount": 0.0,
+                "shipment_total": 801.33,
+                "monthly_total": 16026.6
+            }
+        },
+        {
+            "origin_metro": "Houston",
+            "origin_state": "TX",
+            "dest_metro": "New Orleans",
+            "dest_state": "LA",
+            "lane_id": null,
+            "serviceable": false,
+            "unserviceable_reason": "equipment_not_offered",
+            "pallets_per_shipment": null,
+            "weight_lb_per_pallet": null,
+            "weight_lb_per_shipment": null,
+            "shipments_per_month": 6.0,
+            "service_level": null,
+            "accessorials": [],
+            "mode_quoted": null,
+            "mode_alternatives": [],
+            "transit_days": null,
+            "rationale": null,
+            "pricing": null
+        },
+        {
+            "origin_metro": "Dallas",
+            "origin_state": "TX",
+            "dest_metro": "Oklahoma City",
+            "dest_state": "OK",
+            "lane_id": null,
+            "serviceable": false,
+            "unserviceable_reason": "commodity_not_accepted",
+            "pallets_per_shipment": 4.0,
+            "weight_lb_per_pallet": null,
+            "weight_lb_per_shipment": null,
+            "shipments_per_month": 10.0,
+            "service_level": null,
+            "accessorials": [],
+            "mode_quoted": null,
+            "mode_alternatives": [],
+            "transit_days": null,
+            "rationale": null,
+            "pricing": null
+        }
+    ],
+    "volume_tier": {
+        "tier_name": "Starter",
+        "total_monthly_shipments": 20.0,
+        "discount_pct": 0.0
+    },
+    "monthly_total": 16026.6,
+    "annual_total": 192319.2,
+    "excluded": [
+        {
+            "description": "Houston, TX -> New Orleans, LA",
+            "reason": "equipment_not_offered"
+        },
+        {
+            "description": "Dallas, TX -> Oklahoma City, OK",
+            "reason": "commodity_not_accepted"
+        }
+    ],
+    "assumptions": [
+        "Origin dock in Houston is dock\u2011to\u2011dock with standard loading equipment.",
+        "Each pallet weighs roughly 800\u202flb as stated, but weight does not exceed LTL limits.",
+        "Inside delivery in San Antonio includes staging the pallets inside the shop, not just placement on the dock.",
+        "No lift\u2011gate or residential accessorials are needed at either end.",
+        "All shipments will be palletized and boxed as described, with no special handling beyond inside delivery."
+    ],
+    "open_questions": [
+        "Can you confirm that the Houston origin dock has standard dock\u2011level loading (no lift\u2011gate required)?",
+        "Do you have any appointment windows or scheduling constraints for the inside delivery at the San Antonio shop?",
+        "Is there any need for additional accessorials such as lift\u2011gate, appointment, or extended inside\u2011delivery beyond staging?",
+        "Will the pallet count or weight ever vary from the 9 pallets / 800\u202flb per pallet you described?",
+        "What are your preferred billing and invoicing terms for the monthly volume?"
+    ],
+    "comparable_account": null
+}

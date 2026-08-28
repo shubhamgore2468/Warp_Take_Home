@@ -1,0 +1,86 @@
+{
+    "call_id": "call_05_cascade",
+    "customer": {
+        "company": "Cascade Cellar Distribution",
+        "contact": null,
+        "industry": "Beverage distribution"
+    },
+    "deal_summary": "Cascade Cellar Distribution needs to move 30 shipments per month from Seattle to Portland, each shipment consisting of 16 pallets weighing about 1,100\u202flb per pallet. The product is temperature\u2011sensitive in winter, requiring freeze\u2011protection handling, and Portland requires a scheduled delivery appointment with occasional detention beyond the free time.",
+    "lanes": [
+        {
+            "origin_metro": "Seattle",
+            "origin_state": "WA",
+            "dest_metro": "Portland",
+            "dest_state": "OR",
+            "lane_id": "L035",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 16.0,
+            "weight_lb_per_pallet": 1100.0,
+            "weight_lb_per_shipment": 17600.0,
+            "shipments_per_month": 30.0,
+            "service_level": "STANDARD",
+            "accessorials": [
+                "REEFER",
+                "APPOINTMENT",
+                "DETENTION"
+            ],
+            "mode_quoted": "FTL",
+            "mode_alternatives": [
+                {
+                    "mode": "LTL",
+                    "shipment_total": 1757.79,
+                    "monthly_total": 52733.7,
+                    "transit_days": 1.0
+                }
+            ],
+            "transit_days": 1.0,
+            "rationale": "At 16 pallets and roughly 17,600\u202flb per load, Full\u2011Truckload (FTL) is far more cost\u2011effective than LTL, and it allows us to add the required temperature\u2011control (REEFER) and appointment service while keeping the standard two\u2011day service level.",
+            "pricing": {
+                "linehaul": 881.2,
+                "fuel_surcharge": 163.02,
+                "accessorials": [
+                    {
+                        "code": "REEFER",
+                        "amount": 608.0
+                    },
+                    {
+                        "code": "APPOINTMENT",
+                        "amount": 48.0
+                    }
+                ],
+                "accessorials_total": 656.0,
+                "shipment_subtotal": 1700.22,
+                "discount_pct": 3.0,
+                "discount": 51.01,
+                "shipment_total": 1649.21,
+                "monthly_total": 49476.3
+            }
+        }
+    ],
+    "volume_tier": {
+        "tier_name": "Growth",
+        "total_monthly_shipments": 30.0,
+        "discount_pct": 3.0
+    },
+    "monthly_total": 49476.3,
+    "annual_total": 593715.6,
+    "excluded": [],
+    "assumptions": [
+        "Each pallet is a standard 48\"\u202f\u00d7\u202f40\" pallet.",
+        "The temperature\u2011control service is a freeze\u2011protection (reefer) charge applied per pallet as shown in the proposal.",
+        "Seattle dock access is unrestricted and does not require an appointment.",
+        "Portland dock will accept the carrier only with a scheduled appointment, as described.",
+        "Detention free time follows the carrier\u2019s standard policy (e.g., 1 hour) and any extra time will be billed at the listed detention rate."
+    ],
+    "open_questions": [
+        "What exact temperature range must be maintained to prevent the product from freezing?",
+        "What are the specific appointment windows required at the Portland dock?",
+        "What is the agreed free detention time before the detention rate applies?",
+        "Will liftgate service be needed at either the Seattle or Portland locations?",
+        "Are there any weekend, holiday, or after\u2011hours delivery requirements?",
+        "Do you require any additional insurance coverage beyond the standard freight liability?",
+        "Will your own staff handle loading/unloading, or should the carrier provide that service?"
+    ],
+    "comparable_account": null
+}

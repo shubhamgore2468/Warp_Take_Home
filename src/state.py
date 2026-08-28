@@ -23,7 +23,14 @@ UnserviceableReason = Literal[
 
 class Customer(BaseModel):
     company: Optional[str] = None
-    contact: Optional[str] = None
+    contact: Optional[str] = Field(
+        default=None,
+        description=(
+            "The customer's first name, however it appears — the customer "
+            "introducing themselves, or the rep addressing them by name "
+            "(e.g. REP says 'Thanks for making time, Marcus' -> contact=Marcus)."
+        ),
+    )
     industry: Optional[str] = None
 
 
@@ -31,14 +38,26 @@ class Customer(BaseModel):
 
 class ExtractedLane(BaseModel):
     origin_metro: str
-    origin_state: str
+    origin_state: str = Field(description="Two-letter USPS state code, e.g. IL, GA. Never the full state name.")
     dest_metro: str
-    dest_state: str
+    dest_state: str = Field(description="Two-letter USPS state code, e.g. IL, GA. Never the full state name.")
     pallets_per_shipment: Optional[float] = None
     weight_lb_per_pallet: Optional[float] = None
     shipments_per_month: Optional[float] = None
     service_level: ServiceLevel = "STANDARD"
     mode_requested: Optional[str] = None
+    hazmat: bool = Field(
+        default=False,
+        description="True only if the freight is hazmat, any class or quantity.",
+    )
+    equipment_needed: Optional[str] = Field(
+        default=None,
+        description=(
+            "Set ONLY if the customer needs flatbed, open-deck, or oversize "
+            "handling — equipment Warp does not offer. Warp does offer dry "
+            "van, reefer, box truck and cargo van; leave this null for those."
+        ),
+    )
     accessorials: list[str] = Field(default_factory=list)
     serviceable: bool = True
     unserviceable_reason: Optional[UnserviceableReason] = None
@@ -113,6 +132,21 @@ class ExcludedItem(BaseModel):
 class ComparableAccount(BaseModel):
     account_name: str
     why: str
+
+
+# ---- Prose stage: model reads the priced proposal, writes text only ----
+
+class LaneRationale(BaseModel):
+    origin_metro: str
+    dest_metro: str
+    rationale: str
+
+
+class ProposalProse(BaseModel):
+    deal_summary: str
+    lane_rationales: list[LaneRationale] = Field(default_factory=list)
+    assumptions: list[str] = Field(default_factory=list)
+    open_questions: list[str] = Field(default_factory=list)
 
 
 class Proposal(BaseModel):

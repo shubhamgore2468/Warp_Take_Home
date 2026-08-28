@@ -1,0 +1,113 @@
+{
+    "call_id": "call_02_brightline",
+    "customer": {
+        "company": "Brightline Housewares",
+        "contact": null,
+        "industry": null
+    },
+    "deal_summary": "Brightline Housewares ships all of its product out of a Newark warehouse on two primary lanes. The larger lane to Charlotte runs about 45 shipments per month with seven pallets per shipment (\u2248300\u202flb each) and requires appointment scheduling and guaranteed delivery dates to prevent stockouts. The smaller lane to Boston runs about eight shipments per month with four pallets per shipment, needs a liftgate at delivery for a back\u2011door retail location, and standard service is sufficient.",
+    "lanes": [
+        {
+            "origin_metro": "Newark",
+            "origin_state": "NJ",
+            "dest_metro": "Charlotte",
+            "dest_state": "NC",
+            "lane_id": "L028",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 7.0,
+            "weight_lb_per_pallet": 300.0,
+            "weight_lb_per_shipment": 2100.0,
+            "shipments_per_month": 45.0,
+            "service_level": "GUARANTEED",
+            "accessorials": [
+                "APPOINTMENT"
+            ],
+            "mode_quoted": "LTL",
+            "mode_alternatives": [],
+            "transit_days": 2.0,
+            "rationale": "LTL is chosen because the 7\u2011pallet, roughly 2,100\u2011lb shipments are below a full\u2011truckload threshold, making LTL the most cost\u2011effective mode, and a guaranteed service level is required to eliminate stockouts while the appointment accessorial satisfies the receiver\u2019s scheduling rules.",
+            "pricing": {
+                "linehaul": 930.91,
+                "fuel_surcharge": 172.22,
+                "accessorials": [
+                    {
+                        "code": "APPOINTMENT",
+                        "amount": 48.0
+                    }
+                ],
+                "accessorials_total": 48.0,
+                "shipment_subtotal": 1151.13,
+                "discount_pct": 3.0,
+                "discount": 34.53,
+                "shipment_total": 1116.6,
+                "monthly_total": 50247.0
+            }
+        },
+        {
+            "origin_metro": "Newark",
+            "origin_state": "NJ",
+            "dest_metro": "Boston",
+            "dest_state": "MA",
+            "lane_id": "L025",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 4.0,
+            "weight_lb_per_pallet": 300.0,
+            "weight_lb_per_shipment": 1200.0,
+            "shipments_per_month": 8.0,
+            "service_level": "STANDARD",
+            "accessorials": [
+                "LIFTGATE_DEL"
+            ],
+            "mode_quoted": "LTL",
+            "mode_alternatives": [],
+            "transit_days": 1.0,
+            "rationale": "LTL fits the 4\u2011pallet, about 1,200\u2011lb shipments, and standard service meets the delivery timeline; a liftgate accessorial is added because the Boston destination lacks a dock and requires a back\u2011door delivery.",
+            "pricing": {
+                "linehaul": 356.1,
+                "fuel_surcharge": 65.88,
+                "accessorials": [
+                    {
+                        "code": "LIFTGATE_DEL",
+                        "amount": 95.0
+                    }
+                ],
+                "accessorials_total": 95.0,
+                "shipment_subtotal": 516.98,
+                "discount_pct": 3.0,
+                "discount": 15.51,
+                "shipment_total": 501.47,
+                "monthly_total": 4011.76
+            }
+        }
+    ],
+    "volume_tier": {
+        "tier_name": "Growth",
+        "total_monthly_shipments": 53.0,
+        "discount_pct": 3.0
+    },
+    "monthly_total": 54258.76,
+    "annual_total": 651105.12,
+    "excluded": [],
+    "assumptions": [
+        "Each pallet weighs approximately 300\u202flb as stated by the customer.",
+        "Both origin locations have dock facilities (no liftgate needed at Newark).",
+        "The appointment accessorial applies only to the Charlotte delivery.",
+        "The liftgate accessorial applies only to the Boston delivery.",
+        "All shipments are full pallets (no mixed\u2011load or partial pallets).",
+        "The monthly shipment counts (45 + 8 = 53) align with the \"Growth\" volume tier used for the discount.",
+        "The customer wants guaranteed service on every Charlotte shipment, not just an option."
+    ],
+    "open_questions": [
+        "What specific appointment windows or cut\u2011off times does the Charlotte receiving team require?",
+        "Are there any additional delivery windows or time\u2011of\u2011day restrictions for Boston?",
+        "Do any of the housewares require special handling, insurance coverage, or inside\u2011delivery services?",
+        "Will Brightline provide proof\u2011of\u2011delivery documentation requirements (e.g., signature, photo)?",
+        "Is the guaranteed service level for Charlotte expected on all shipments, and what penalty terms are acceptable if a guarantee is missed?",
+        "Are there any carrier preferences or restrictions we should be aware of?",
+        "What billing address and purchase order format should be used for invoicing?",
+        "Do you need any temperature control or other freight\u2011type specifications for the boxed goods?"
+    ],
+    "comparable_account": null
+}

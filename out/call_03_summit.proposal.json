@@ -1,0 +1,88 @@
+{
+    "call_id": "call_03_summit",
+    "customer": {
+        "company": "Summit Trail Gear",
+        "contact": null,
+        "industry": null
+    },
+    "deal_summary": "Summit Trail Gear needs to ship ten pallets of bulky, lightweight outdoor gear (tents and packs) from Los Angeles to Phoenix twelve times a month, dock\u2011to\u2011dock with standard service. They also want to establish a new lane from Boise to Salt Lake City for fifteen monthly shipments of six pallets each, which will require a liftgate at the destination and is not yet priced.",
+    "lanes": [
+        {
+            "origin_metro": "Los Angeles",
+            "origin_state": "CA",
+            "dest_metro": "Phoenix",
+            "dest_state": "AZ",
+            "lane_id": "L019",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 10.0,
+            "weight_lb_per_pallet": 200.0,
+            "weight_lb_per_shipment": 2000.0,
+            "shipments_per_month": 12.0,
+            "service_level": "STANDARD",
+            "accessorials": [],
+            "mode_quoted": "LTL",
+            "mode_alternatives": [],
+            "transit_days": 2.0,
+            "rationale": "LTL standard service is ideal for the 10\u2011pallet, 200\u2011lb\u2011per\u2011pallet shipments of bulky but light gear, and both facilities have dock access, so no liftgate or other accessorials are needed.",
+            "pricing": {
+                "linehaul": 807.69,
+                "fuel_surcharge": 149.42,
+                "accessorials": [],
+                "accessorials_total": 0.0,
+                "shipment_subtotal": 957.11,
+                "discount_pct": 0.0,
+                "discount": 0.0,
+                "shipment_total": 957.11,
+                "monthly_total": 11485.32
+            }
+        },
+        {
+            "origin_metro": "Boise",
+            "origin_state": "ID",
+            "dest_metro": "Salt Lake City",
+            "dest_state": "UT",
+            "lane_id": null,
+            "serviceable": false,
+            "unserviceable_reason": "lane_not_in_rate_card",
+            "pallets_per_shipment": 6.0,
+            "weight_lb_per_pallet": null,
+            "weight_lb_per_shipment": null,
+            "shipments_per_month": 15.0,
+            "service_level": null,
+            "accessorials": [],
+            "mode_quoted": null,
+            "mode_alternatives": [],
+            "transit_days": null,
+            "rationale": null,
+            "pricing": null
+        }
+    ],
+    "volume_tier": {
+        "tier_name": "Starter",
+        "total_monthly_shipments": 12.0,
+        "discount_pct": 0.0
+    },
+    "monthly_total": 11485.32,
+    "annual_total": 137823.84,
+    "excluded": [
+        {
+            "description": "Boise, ID -> Salt Lake City, UT",
+            "reason": "lane_not_in_rate_card"
+        }
+    ],
+    "assumptions": [
+        "Each pallet from Los Angeles weighs approximately 200\u202flb as described.",
+        "Both the Los Angeles and Phoenix facilities have functional loading docks (dock\u2011to\u2011dock service).",
+        "The customer will start the Los Angeles\u2011to\u2011Phoenix shipments immediately once the price is accepted.",
+        "Monthly volume will remain at 12 shipments for the LA\u2011Phoenix lane."
+    ],
+    "open_questions": [
+        "Can you confirm that there are no additional accessorial requirements (e.g., liftgate, inside pickup) for the Los Angeles\u2011to\u2011Phoenix lane?",
+        "Do you have any preferred pickup or delivery windows for the LA\u2011Phoenix shipments?",
+        "What is the target start date for the Boise\u2011to\u2011Salt\u202fLake City lane, and are there any interim solutions you\u2019d consider while we build that lane?",
+        "Will the weight per pallet for the Boise\u2011to\u2011Salt\u202fLake shipments remain around 250\u202flb, and are there any packaging or handling nuances we should know?",
+        "Are there any payment terms or invoicing preferences we should capture before finalizing the contract?"
+    ],
+    "comparable_account": null
+}

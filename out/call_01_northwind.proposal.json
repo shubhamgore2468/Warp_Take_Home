@@ -1,0 +1,71 @@
+{
+    "call_id": "call_01_northwind",
+    "customer": {
+        "company": "Northwind Paper Co.",
+        "contact": "Marcus",
+        "industry": "paper and packaging"
+    },
+    "deal_summary": "Northwind Paper ships eight 48\" x 40\" pallets (about 600\u202flb each) from their Chicago distribution center to their Atlanta branch about 40 times a month, needing a liftgate at delivery because the Atlanta location has no dock. They prefer standard, reliable transit with no temperature control and are flexible on delivery windows during business hours.",
+    "lanes": [
+        {
+            "origin_metro": "Chicago",
+            "origin_state": "IL",
+            "dest_metro": "Atlanta",
+            "dest_state": "GA",
+            "lane_id": "L001",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 8.0,
+            "weight_lb_per_pallet": 600.0,
+            "weight_lb_per_shipment": 4800.0,
+            "shipments_per_month": 40.0,
+            "service_level": "STANDARD",
+            "accessorials": [
+                "LIFTGATE_DEL"
+            ],
+            "mode_quoted": "LTL",
+            "mode_alternatives": [],
+            "transit_days": 3.0,
+            "rationale": "LTL is the right fit for an 8\u2011pallet, ~4,800\u2011lb shipment, and the STANDARD service level provides the reliability they value while keeping costs competitive; the liftgate accessorial is included to address the no\u2011dock condition at the Atlanta destination.",
+            "pricing": {
+                "linehaul": 889.69,
+                "fuel_surcharge": 164.59,
+                "accessorials": [
+                    {
+                        "code": "LIFTGATE_DEL",
+                        "amount": 95.0
+                    }
+                ],
+                "accessorials_total": 95.0,
+                "shipment_subtotal": 1149.28,
+                "discount_pct": 3.0,
+                "discount": 34.48,
+                "shipment_total": 1114.8,
+                "monthly_total": 44592.0
+            }
+        }
+    ],
+    "volume_tier": {
+        "tier_name": "Growth",
+        "total_monthly_shipments": 40.0,
+        "discount_pct": 3.0
+    },
+    "monthly_total": 44592.0,
+    "annual_total": 535104.0,
+    "excluded": [],
+    "assumptions": [
+        "The Chicago pickup will use the existing dock and forklift without any additional accessorials.",
+        "All shipments are dry freight and will not be exposed to rain during transit.",
+        "Business hours at the Atlanta branch are typical 8\u202fam\u20135\u202fpm, allowing first\u2011come\u2011first\u2011served deliveries.",
+        "The liftgate will be required on every delivery, as the customer indicated it\u2019s a consistent need.",
+        "Weight per pallet is 600\u202flb, totaling 4,800\u202flb per shipment."
+    ],
+    "open_questions": [
+        "Can you confirm that a liftgate is required on every single delivery to Atlanta?",
+        "Are there any specific cut\u2011off times or preferred delivery windows we should be aware of?",
+        "Do you have any restrictions on truck dimensions or height at the Atlanta location?",
+        "Will there ever be a need for inside delivery beyond the liftgate, such as moving pallets into the building?",
+        "Do you anticipate any seasonal spikes that could increase the monthly shipment count beyond 40?"
+    ],
+    "comparable_account": null
+}

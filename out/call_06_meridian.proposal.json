@@ -1,0 +1,108 @@
+{
+    "call_id": "call_06_meridian",
+    "customer": {
+        "company": "Meridian Optics Group",
+        "contact": null,
+        "industry": null
+    },
+    "deal_summary": "Meridian Optics Group needs freight moved from Memphis to Nashville \u2013 22 shipments per month, each with five pallets (\u2248200\u202fkg per pallet) that must be sorted and segregated by store on delivery \u2013 and from Columbus to Indianapolis \u2013 six shipments per month, each with three pallets, delivering to a limited\u2011access hospital campus.",
+    "lanes": [
+        {
+            "origin_metro": "Memphis",
+            "origin_state": "TN",
+            "dest_metro": "Nashville",
+            "dest_state": "TN",
+            "lane_id": "L031",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 5.0,
+            "weight_lb_per_pallet": 441.0,
+            "weight_lb_per_shipment": 2205.0,
+            "shipments_per_month": 22.0,
+            "service_level": "STANDARD",
+            "accessorials": [
+                "SORT_SEGREGATE"
+            ],
+            "mode_quoted": "LTL",
+            "mode_alternatives": [],
+            "transit_days": 1.0,
+            "rationale": "We quoted LTL Standard because a five\u2011pallet shipment fits comfortably within LTL capacity, offering a cost\u2011effective rate while allowing us to apply the required SORT_SEGREGATE accessorial for store\u2011by\u2011store delivery.",
+            "pricing": {
+                "linehaul": 418.27,
+                "fuel_surcharge": 77.38,
+                "accessorials": [
+                    {
+                        "code": "SORT_SEGREGATE",
+                        "amount": 130.0
+                    }
+                ],
+                "accessorials_total": 130.0,
+                "shipment_subtotal": 625.65,
+                "discount_pct": 3.0,
+                "discount": 18.77,
+                "shipment_total": 606.88,
+                "monthly_total": 13351.36
+            }
+        },
+        {
+            "origin_metro": "Columbus",
+            "origin_state": "OH",
+            "dest_metro": "Indianapolis",
+            "dest_state": "IN",
+            "lane_id": "L039",
+            "serviceable": true,
+            "unserviceable_reason": null,
+            "pallets_per_shipment": 3.0,
+            "weight_lb_per_pallet": 441.0,
+            "weight_lb_per_shipment": 1323.0,
+            "shipments_per_month": 6.0,
+            "service_level": "STANDARD",
+            "accessorials": [
+                "LIMITED_ACCESS"
+            ],
+            "mode_quoted": "LTL",
+            "mode_alternatives": [],
+            "transit_days": 1.0,
+            "rationale": "LTL Standard is also appropriate for the three\u2011pallet shipments, and the LIMITED_ACCESS accessorial covers the extra handling needed for the hospital campus delivery.",
+            "pricing": {
+                "linehaul": 293.7,
+                "fuel_surcharge": 54.33,
+                "accessorials": [
+                    {
+                        "code": "LIMITED_ACCESS",
+                        "amount": 110.0
+                    }
+                ],
+                "accessorials_total": 110.0,
+                "shipment_subtotal": 458.03,
+                "discount_pct": 3.0,
+                "discount": 13.74,
+                "shipment_total": 444.29,
+                "monthly_total": 2665.74
+            }
+        }
+    ],
+    "volume_tier": {
+        "tier_name": "Growth",
+        "total_monthly_shipments": 28.0,
+        "discount_pct": 3.0
+    },
+    "monthly_total": 16017.1,
+    "annual_total": 192205.2,
+    "excluded": [],
+    "assumptions": [
+        "Each shipment will consistently contain the stated number of pallets (5 for Memphis\u2011Nashville, 3 for Columbus\u2011Indianapolis).",
+        "The weight per pallet remains at 200\u202fkg (\u2248440\u202flb) for all shipments.",
+        "Both origin facilities have standard dock doors and operate during normal business hours.",
+        "The SORT_SEGREGATE charge is applied per pallet at the Nashville destination as indicated in the proposal.",
+        "The LIMITED_ACCESS charge applies to every Indianapolis delivery due to the hospital campus restrictions."
+    ],
+    "open_questions": [
+        "Does the competitor\u2019s $410 per shipment quote for the Memphis lane include the sort\u2011and\u2011segregate service, or is that an additional charge?",
+        "Are there any lift\u2011gate, residential, or inside\u2011delivery requirements at either origin or destination that we haven\u2019t captured?",
+        "Can you confirm the exact dock hours and any appointment windows required at the Memphis and Columbus origins?",
+        "Will the weight per pallet ever vary from the 200\u202fkg baseline, affecting the LTL pricing?",
+        "What are your preferred billing and payment terms for the monthly invoice?"
+    ],
+    "comparable_account": null
+}

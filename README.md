@@ -10,10 +10,10 @@ uv sync
 cp .env.example .env   # fill in GROQ_API_KEY
 
 # one call
-uv run python main.py calls/call_01_northwind.txt
+uv run python main.py calls/call_01_northwind.txt --provider nvidia
 
 # all six
-for f in calls/call_*.txt; do uv run python main.py "$f"; done
+for f in calls/call_*.txt; do uv run python main.py "$f"; --provider nvidia; done done
 
 # no model at all
 uv run python main.py calls/call_01_northwind.txt --no-ai
@@ -22,7 +22,8 @@ uv run python main.py calls/call_01_northwind.txt --no-ai
 python3 validate.py out/ --check-facts
 ```
 
-
+## Model Used
+Nvidia nim model - softer rate limits and req/per - able to process all turn in 6 conversations
 
 ## CSV vs mock server
 

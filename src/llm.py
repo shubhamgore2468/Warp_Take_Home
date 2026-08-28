@@ -1,9 +1,8 @@
 import os
+from typing import Optional
 from dotenv import load_dotenv
 
 load_dotenv()
-
-PROVIDER = os.environ.get("MODEL_PROVIDER", "groq").lower()
 
 # base_url + default model per OpenAI-compatible provider. Groq, Gemini (OpenAI
 # compat endpoint), GitHub Models and Ollama all speak this same wire format,
@@ -40,7 +39,8 @@ _PROVIDERS = {
 class LLMClient:
     """Thin wrapper: one method, complete(system, user) -> str."""
 
-    def __init__(self, provider: str = PROVIDER):
+    def __init__(self, provider: Optional[str] = None):
+        provider = (provider or os.environ.get("MODEL_PROVIDER", "groq")).lower()
         if provider not in _PROVIDERS:
             raise ValueError(
                 f"Unknown MODEL_PROVIDER {provider!r}. "
@@ -76,5 +76,5 @@ class LLMClient:
         return response.choices[0].message.content
 
 
-def get_llm_client() -> LLMClient:
-    return LLMClient("nvidia")
+def get_llm_client(provider: Optional[str] = None) -> LLMClient:
+    return LLMClient(provider)

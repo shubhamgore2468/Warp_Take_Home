@@ -8,7 +8,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("call_file", nargs="?", default="calls/call_01_northwind.txt")
     ap.add_argument("--no-ai", action="store_true", help="rules-based fallback, no LLM calls")
+    ap.add_argument("--provider", help="groq / gemini / github / ollama / nvidia (default: MODEL_PROVIDER env, else groq)")
     args = ap.parse_args()
+
+    if args.provider:
+        os.environ["MODEL_PROVIDER"] = args.provider
 
     if args.no_ai:
         from src.rules import rules_extract_turn as extract_fn, rules_prose

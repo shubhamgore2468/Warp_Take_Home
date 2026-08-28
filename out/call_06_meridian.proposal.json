@@ -5,7 +5,7 @@
         "contact": null,
         "industry": null
     },
-    "deal_summary": "Meridian Optics Group needs freight moved from Memphis to Nashville \u2013 22 shipments per month, each with five pallets (\u2248200\u202fkg per pallet) that must be sorted and segregated by store on delivery \u2013 and from Columbus to Indianapolis \u2013 six shipments per month, each with three pallets, delivering to a limited\u2011access hospital campus.",
+    "deal_summary": "Meridian Optics ships freight from two origins. From Memphis they run 22 shipments a month to Nashville, each shipment containing five pallets (about 200\u202fkg per pallet) that must be sorted and segregated by store on delivery. From Columbus they run six shipments a month to Indianapolis, each with three pallets and a limited\u2011access delivery inside a hospital campus.",
     "lanes": [
         {
             "origin_metro": "Memphis",
@@ -26,7 +26,7 @@
             "mode_quoted": "LTL",
             "mode_alternatives": [],
             "transit_days": 1.0,
-            "rationale": "We quoted LTL Standard because a five\u2011pallet shipment fits comfortably within LTL capacity, offering a cost\u2011effective rate while allowing us to apply the required SORT_SEGREGATE accessorial for store\u2011by\u2011store delivery.",
+            "rationale": "We quote LTL Standard service because the shipments are five\u2011pallet loads (\u2248440\u202flb each) and require on\u2011site sorting and segregation, which is best handled with our standard LTL offering and the SORT_SEGREGATE accessorial.",
             "pricing": {
                 "linehaul": 418.27,
                 "fuel_surcharge": 77.38,
@@ -63,7 +63,7 @@
             "mode_quoted": "LTL",
             "mode_alternatives": [],
             "transit_days": 1.0,
-            "rationale": "LTL Standard is also appropriate for the three\u2011pallet shipments, and the LIMITED_ACCESS accessorial covers the extra handling needed for the hospital campus delivery.",
+            "rationale": "We quote LTL Standard service for three\u2011pallet shipments to a limited\u2011access hospital campus, using the LIMITED_ACCESS accessorial to cover the extra handling required.",
             "pricing": {
                 "linehaul": 293.7,
                 "fuel_surcharge": 54.33,
@@ -91,18 +91,19 @@
     "annual_total": 192205.2,
     "excluded": [],
     "assumptions": [
-        "Each shipment will consistently contain the stated number of pallets (5 for Memphis\u2011Nashville, 3 for Columbus\u2011Indianapolis).",
-        "The weight per pallet remains at 200\u202fkg (\u2248440\u202flb) for all shipments.",
-        "Both origin facilities have standard dock doors and operate during normal business hours.",
-        "The SORT_SEGREGATE charge is applied per pallet at the Nashville destination as indicated in the proposal.",
-        "The LIMITED_ACCESS charge applies to every Indianapolis delivery due to the hospital campus restrictions."
+        "The \"real dock, normal hours\" comment means no after\u2011hours, lift\u2011gate, or dock\u2011door fees at either origin.",
+        "Each pallet weighs 200\u202fkg (\u2248440\u202flb) as stated, and we have converted to pounds for pricing.",
+        "\"Skid, pallet, same thing\" indicates each pallet is treated as a single unit for LTL pricing.",
+        "The sort and segregate requirement in Nashville is applied per pallet via the SORT_SEGREGATE accessorial.",
+        "The limited\u2011access delivery in Indianapolis is the only extra accessorial for that lane."
     ],
     "open_questions": [
-        "Does the competitor\u2019s $410 per shipment quote for the Memphis lane include the sort\u2011and\u2011segregate service, or is that an additional charge?",
-        "Are there any lift\u2011gate, residential, or inside\u2011delivery requirements at either origin or destination that we haven\u2019t captured?",
-        "Can you confirm the exact dock hours and any appointment windows required at the Memphis and Columbus origins?",
-        "Will the weight per pallet ever vary from the 200\u202fkg baseline, affecting the LTL pricing?",
-        "What are your preferred billing and payment terms for the monthly invoice?"
+        "Does the competitor\u2019s $410 per shipment quote include the sort/segregate charge for the Nashville lane?",
+        "Are there any lift\u2011gate or inside\u2011delivery requirements at either origin or destination that were not mentioned?",
+        "Can you confirm the exact weight per pallet (200\u202fkg) and that there are no variations between shipments?",
+        "What are your preferred billing and payment terms?",
+        "Do you need any additional insurance coverage for the optics products beyond standard liability?",
+        "Are there specific delivery windows or appointment requirements at the hospital campus in Indianapolis?"
     ],
     "comparable_account": null
 }

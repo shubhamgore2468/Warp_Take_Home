@@ -1,0 +1,23 @@
+CALL: call_04_ironclad
+DATE: 2026-08-19
+REP: Dana Whitfield (Warp)
+CUSTOMER: Ironclad Fabrication
+
+[00:00] REP: Give me the shape of your freight, Tomas.
+[00:04] CUSTOMER: We fabricate steel components. Three flows worth talking about.
+[00:11] REP: Go ahead.
+[00:13] CUSTOMER: First one is finished small parts, Houston to San Antonio. Palletized, boxed, nothing exotic. Nine pallets a shipment, twenty shipments a month, about eight hundred pounds a pallet.
+[00:29] REP: Accessorials on either end?
+[00:32] CUSTOMER: San Antonio needs inside delivery, they want it staged in the shop not left on the dock apron. Otherwise dock to dock.
+[00:43] REP: Inside delivery in San Antonio, noted. Second flow?
+[00:48] CUSTOMER: This is the one I really need solved. We move structural beam sections from Houston to New Orleans. They're forty feet long, they ride on a flatbed with straps and tarps. Six loads a month.
+[01:05] REP: I want to stop you there, because I'd rather lose the freight than promise something we don't run. Warp is a dry van, reefer, box truck and cargo van network. We don't operate flatbed or open-deck equipment, and forty-foot beam sections aren't something I can put on our network.
+[01:25] CUSTOMER: Huh. Okay. I appreciate you saying that up front rather than three weeks in.
+[01:33] REP: It wouldn't do either of us any good. What's the third flow?
+[01:39] CUSTOMER: Industrial coatings. Drums of solvent-based primer, Dallas to Oklahoma City. That's classed hazmat, UN1263, flammable liquid. Four pallets a shipment, ten a month.
+[01:56] REP: Same answer, and I'll be just as direct. We don't accept hazmat on our network. No hazardous materials, regardless of class or quantity.
+[02:07] CUSTOMER: So you'd only be bidding on the small parts lane.
+[02:12] REP: Correct, and I'd rather bid that one properly than paper over the other two. If the beams and the coatings are a package requirement for you, tell me now and we'll part as friends.
+[02:26] CUSTOMER: No, they're separately sourced anyway. The small parts lane is real money and our current carrier is unreliable on it.
+[02:36] REP: Then let's price that one and be explicit in writing about what we are not covering.
+[02:43] CUSTOMER: That's the right approach. Send me something that says clearly what you do and don't take, my ops director will ask.

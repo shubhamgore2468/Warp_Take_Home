@@ -1,0 +1,34 @@
+CALL: call_02_brightline
+DATE: 2026-08-18
+REP: Dana Whitfield (Warp)
+CUSTOMER: Brightline Housewares
+
+[00:00] REP: So Priya, walk me through the network. Where's product originating?
+[00:06] CUSTOMER: Everything ships out of our Newark warehouse. We've got two big flows. The bigger one goes to Charlotte.
+[00:17] REP: Newark to Charlotte. Volume?
+[00:20] CUSTOMER: It moves around a bit honestly. Some weeks it's forty pallets a week, some weeks it's fifty.
+[00:29] REP: Okay, and is that forty to fifty pallets on a single shipment, or across several?
+[00:35] CUSTOMER: Oh, no, sorry. Per shipment it's more like six pallets. The forty to fifty is the monthly shipment count.
+[00:45] REP: That's a helpful correction, thank you. So roughly forty to fifty shipments a month, six pallets each.
+[00:53] CUSTOMER: Right. Let's call it forty-five as the planning number.
+[00:59] REP: Forty-five a month it is. Weight per pallet?
+[01:04] CUSTOMER: Light. It's housewares, mostly boxed goods. Maybe three hundred pounds a pallet.
+[01:12] REP: Any accessorial needs on the Charlotte end?
+[01:16] CUSTOMER: They need an appointment. Their receiving team is strict about it, you can't just roll up.
+[01:24] REP: Appointment scheduling on delivery, noted. Liftgate?
+[01:29] CUSTOMER: No, they've got a dock.
+[01:33] REP: And Newark on the outbound?
+[01:36] CUSTOMER: Dock as well, we're fine.
+[01:40] REP: What about service level? Standard transit on that lane is a couple of days.
+[01:47] CUSTOMER: Hmm. Actually, hold on. For the Charlotte flow I want to change something. We've been getting killed on stockouts, so I'd want guaranteed dates on those, not just standard.
+[02:02] REP: Guaranteed date service. That does carry an uplift, I'll show it to you explicitly so you can decide.
+[02:10] CUSTOMER: Fair. Show me both and I'll decide.
+[02:15] REP: I'll price it as guaranteed since that's your stated preference, and note standard as the alternative. Now you said there was a second flow?
+[02:25] CUSTOMER: Yes, Newark to Boston. Much smaller. Maybe eight shipments a month, four pallets each, same light freight.
+[02:36] REP: Anything special on Boston?
+[02:39] CUSTOMER: It's a retail back-door delivery. Tight street, no dock. They'll need a liftgate.
+[02:47] REP: Liftgate on delivery in Boston. Standard service there?
+[02:52] CUSTOMER: Standard's fine for Boston, that's not the problem child.
+[02:58] REP: One more time on the Charlotte number so I don't get it wrong. Forty-five shipments a month?
+[03:05] CUSTOMER: Forty-five. And actually make it seven pallets per shipment, not six. I was looking at last quarter's average, this quarter has run heavier.
+[03:17] REP: Seven pallets, forty-five shipments. Got it.

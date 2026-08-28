@@ -1,0 +1,25 @@
+CALL: call_01_northwind
+DATE: 2026-08-18
+REP: Dana Whitfield (Warp)
+CUSTOMER: Northwind Paper Co.
+
+[00:00] REP: Thanks for making time, Marcus. Before I show you anything, I'd rather just hear how your freight actually moves today.
+[00:09] CUSTOMER: Sure. So we're a paper and packaging distributor. Our main DC is in Chicago, and the bulk of what we ship goes down to our Atlanta branch.
+[00:21] REP: Got it. Chicago to Atlanta. What does a typical shipment look like?
+[00:26] CUSTOMER: Usually eight pallets. Standard 48 by 40. They're heavy for their size, call it six hundred pounds a pallet.
+[00:37] REP: So around forty-eight hundred pounds a load. And how often is that going out?
+[00:43] CUSTOMER: Right now we're doing about forty a month. It's been pretty steady, maybe a little seasonal spike in Q4 but nothing dramatic.
+[00:55] REP: Okay. Anything unusual about the Atlanta side? Dock, hours, receiving requirements?
+[01:03] CUSTOMER: That's actually our pain point. The Atlanta branch is in an older building, there's no dock. The driver has to be able to get the pallets down off the truck.
+[01:16] REP: So you need a liftgate on delivery every time.
+[01:19] CUSTOMER: Every time. And honestly that's where our current carrier keeps burning us. Half of them show up without one and then we're rescheduling.
+[01:30] REP: That's a fair complaint, and it's a solvable one. What about pickup on the Chicago end?
+[01:36] CUSTOMER: Chicago's fine, we've got a proper dock and a forklift. No issues there.
+[01:42] REP: Timing. Is standard transit workable or do you need it faster?
+[01:48] CUSTOMER: Standard's fine. We plan far enough ahead. I'd rather have it reliable than fast.
+[01:57] REP: Understood. Is there any temperature or handling requirement on the paper?
+[02:03] CUSTOMER: No, it's dry freight, it just can't get rained on. Normal dry van is fine.
+[02:11] REP: Last thing. Does anyone at the Atlanta branch need appointments scheduled, or can we deliver in a window?
+[02:19] CUSTOMER: They're pretty flexible. First come first served during business hours. No appointment needed.
+[02:27] REP: That helps. Let me put some numbers together while we talk.
+[02:32] CUSTOMER: Sounds good. The main thing I need to see is whether you're actually competitive once the liftgate is baked in, because that's where the surprises always come from.

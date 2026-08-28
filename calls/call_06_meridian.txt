@@ -1,0 +1,29 @@
+CALL: call_06_meridian
+DATE: 2026-08-20
+REP: Dana Whitfield (Warp)
+CUSTOMER: Meridian Optics Group
+
+[00:00] REP: Where does your freight start, Aaron?
+[00:04] CUSTOMER: Two origins. Memphis is the main one, and we do a smaller amount out of Columbus.
+[00:13] REP: Start with Memphis.
+[00:15] CUSTOMER: Memphis to Nashville. We run about twenty-two skids a month.
+[00:22] REP: When you say twenty-two skids a month, do you mean twenty-two individual shipments, or twenty-two pallets total?
+[00:31] CUSTOMER: Sorry, twenty-two shipments. Each one is five skids. Skid, pallet, same thing to me.
+[00:41] REP: Understood, five pallets per shipment, twenty-two shipments a month. Weight?
+[00:48] CUSTOMER: We track in metric because our parent company is European. Two hundred kilos a skid.
+[00:57] REP: Two hundred kilos, so roughly four hundred and forty pounds a pallet. I'll convert everything to pounds in the proposal and note the conversion.
+[01:08] CUSTOMER: Appreciated, that trips everybody up.
+[01:13] REP: Handling requirements in Nashville?
+[01:16] CUSTOMER: They want it sorted by store. We ship to a consolidation point and they need the pallets segregated by destination store before they'll sign for it.
+[01:29] REP: Sort and segregate on delivery. That's priced per pallet on our side. Anything else?
+[01:36] CUSTOMER: No, it's a real dock, normal hours.
+[01:41] REP: Now Columbus.
+[01:44] CUSTOMER: Columbus to Indianapolis. Smaller, six shipments a month. Three pallets each, same weight per pallet roughly.
+[01:55] REP: Same sort requirement there?
+[01:58] CUSTOMER: No, Indianapolis takes it straight. But it's a limited access site, it's inside a hospital campus and the drivers always complain about getting in.
+[02:11] REP: Limited access delivery, that's a real charge and I'll show it rather than bury it.
+[02:18] CUSTOMER: Here's my honest position. I've got a quote from another provider at four hundred and ten a shipment on the Memphis lane, all in. If you're materially above that I need to understand why.
+[02:33] REP: That's fair and I won't pretend I can't hear it. What I'd ask is that you compare like for like, including whether their number holds the sort and segregate charge or adds it later.
+[02:47] CUSTOMER: That's a good question and I don't know the answer.
+[02:52] REP: I'll lay our number out line by line so you can hold it against theirs. If we're higher I'd rather you see exactly where.
+[03:02] CUSTOMER: Deal. Send it broken out.

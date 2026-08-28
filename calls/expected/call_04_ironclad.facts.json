@@ -1,0 +1,62 @@
+{
+  "call_id": "call_04_ironclad",
+  "customer": {
+    "company": "Ironclad Fabrication",
+    "contact": "Tomas",
+    "industry": "Steel fabrication"
+  },
+  "lanes": [
+    {
+      "origin_metro": "Houston",
+      "origin_state": "TX",
+      "dest_metro": "San Antonio",
+      "dest_state": "TX",
+      "pallets_per_shipment": 9,
+      "weight_lb_per_pallet": 800,
+      "shipments_per_month": 20,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [
+        "INSIDE_DEL"
+      ],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "Freight staged inside the shop, not left on the dock apron."
+    },
+    {
+      "origin_metro": "Houston",
+      "origin_state": "TX",
+      "dest_metro": "New Orleans",
+      "dest_state": "LA",
+      "pallets_per_shipment": null,
+      "weight_lb_per_pallet": null,
+      "shipments_per_month": 6,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [],
+      "serviceable": false,
+      "unserviceable_reason": "equipment_not_offered",
+      "notes": "40 ft structural beam sections requiring flatbed or open-deck with straps and tarps. Warp runs dry van, reefer, box truck and cargo van only."
+    },
+    {
+      "origin_metro": "Dallas",
+      "origin_state": "TX",
+      "dest_metro": "Oklahoma City",
+      "dest_state": "OK",
+      "pallets_per_shipment": 4,
+      "weight_lb_per_pallet": null,
+      "shipments_per_month": 10,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [],
+      "serviceable": false,
+      "unserviceable_reason": "commodity_not_accepted",
+      "notes": "Solvent-based primer, UN1263 flammable liquid. Warp does not accept hazmat."
+    }
+  ],
+  "total_monthly_shipments": 20,
+  "blockers": [
+    "Houston TX to New Orleans LA requires flatbed or open-deck equipment, which Warp does not operate.",
+    "Dallas TX to Oklahoma City OK is hazmat (UN1263) and cannot be accepted on the Warp network."
+  ]
+}

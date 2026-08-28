@@ -1,0 +1,9 @@
+account_name,industry,monthly_shipments,primary_lane,avg_cost_per_shipment,tenure_months,on_time_pct
+Northsteel Supply,Industrial parts,142,Chicago IL - Columbus OH,486.20,31,96.4
+Verdant Foods,Food and beverage,268,Dallas TX - Houston TX,392.75,44,94.1
+Halcyon Home,Home goods retail,61,Newark NJ - Charlotte NC,721.40,18,97.2
+Pinebrook Outfitters,Apparel,38,Los Angeles CA - Phoenix AZ,548.90,12,95.8
+Cobalt Medical,Medical devices,97,Memphis TN - Nashville TN,344.10,26,98.3
+Riverton Beverage,Food and beverage,311,Atlanta GA - Jacksonville FL,410.60,52,93.7
+Ashgrove Furnishings,Furniture,54,Seattle WA - Portland OR,466.30,9,96.9
+Lakeside Components,Automotive,183,Columbus OH - Indianapolis IN,358.45,37,97.5

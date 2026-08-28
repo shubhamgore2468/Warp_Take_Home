@@ -1,0 +1,27 @@
+CALL: call_05_cascade
+DATE: 2026-08-20
+REP: Dana Whitfield (Warp)
+CUSTOMER: Cascade Cellar Distribution
+
+[00:00] REP: What are we looking at, Renee?
+[00:04] CUSTOMER: Beverage distribution. Our lane is Seattle to Portland, it runs constantly.
+[00:12] REP: How constantly?
+[00:14] CUSTOMER: Thirty shipments a month, give or take a couple.
+[00:19] REP: And size per shipment?
+[00:22] CUSTOMER: Sixteen pallets. It's canned and bottled product so it's dense, about eleven hundred pounds a pallet.
+[00:32] REP: Sixteen pallets at eleven hundred pounds. That's a substantial load.
+[00:38] CUSTOMER: Yeah. We've always just bought it as LTL from our current provider, that's how they set it up years ago and nobody's revisited it.
+[00:49] REP: I'm going to look at that carefully, because at that size and weight there may be a better structure than LTL. I'll show you both so you can see the comparison rather than take my word for it.
+[01:03] CUSTOMER: I'd genuinely like to see that. Nobody's ever shown me the math.
+[01:09] REP: Any handling requirements?
+[01:12] CUSTOMER: Portland is temperature sensitive in winter, we need protect from freeze on the product. Not full refrigeration, just don't let it freeze.
+[01:24] REP: Temperature controlled handling, noted. That's a per-pallet charge on our side, I'll show it as its own line.
+[01:33] CUSTOMER: Fine, as long as I can see it.
+[01:37] REP: Docks on both ends?
+[01:40] CUSTOMER: Seattle yes. Portland is a dock but their receiving window is narrow, they want a scheduled appointment or they'll turn the driver away.
+[01:52] REP: Appointment on delivery then. Service level?
+[01:57] CUSTOMER: Standard. It's a two-day-ish lane and that works.
+[02:03] REP: One more. Any detention history on the Portland side I should account for?
+[02:10] CUSTOMER: Occasionally, yeah. Maybe once or twice a month a driver sits for an extra hour or two past the free time. I'd want to understand how that bills rather than be surprised.
+[02:24] REP: I'll put the detention rate and the free time in the proposal explicitly so there's no ambiguity. I won't build a guess at detention hours into your monthly number, I'll show you the rate and let you model it.
+[02:39] CUSTOMER: That's the right way to do it.

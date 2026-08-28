@@ -1,0 +1,46 @@
+{
+  "call_id": "call_06_meridian",
+  "customer": {
+    "company": "Meridian Optics Group",
+    "contact": "Aaron",
+    "industry": "Optics"
+  },
+  "lanes": [
+    {
+      "origin_metro": "Memphis",
+      "origin_state": "TN",
+      "dest_metro": "Nashville",
+      "dest_state": "TN",
+      "pallets_per_shipment": 5,
+      "weight_lb_per_pallet": 441,
+      "shipments_per_month": 22,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [
+        "SORT_SEGREGATE"
+      ],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "Customer said 'skids' meaning pallets and quoted 200 kg per skid; converted at 2.20462 lb/kg. Competitor benchmark of $410.00 per shipment all-in on this lane."
+    },
+    {
+      "origin_metro": "Columbus",
+      "origin_state": "OH",
+      "dest_metro": "Indianapolis",
+      "dest_state": "IN",
+      "pallets_per_shipment": 3,
+      "weight_lb_per_pallet": 441,
+      "shipments_per_month": 6,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [
+        "LIMITED_ACCESS"
+      ],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "Delivery inside a hospital campus."
+    }
+  ],
+  "total_monthly_shipments": 28,
+  "blockers": []
+}

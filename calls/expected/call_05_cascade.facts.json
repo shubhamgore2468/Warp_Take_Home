@@ -1,0 +1,30 @@
+{
+  "call_id": "call_05_cascade",
+  "customer": {
+    "company": "Cascade Cellar Distribution",
+    "contact": "Renee",
+    "industry": "Beverage distribution"
+  },
+  "lanes": [
+    {
+      "origin_metro": "Seattle",
+      "origin_state": "WA",
+      "dest_metro": "Portland",
+      "dest_state": "OR",
+      "pallets_per_shipment": 16,
+      "weight_lb_per_pallet": 1100,
+      "shipments_per_month": 30,
+      "service_level": "STANDARD",
+      "mode_requested": "LTL",
+      "accessorials": [
+        "APPOINTMENT",
+        "REEFER"
+      ],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "Customer buys this as LTL by legacy habit. 16 pallets and 17,600 lb per shipment cross both FTL thresholds, so LTL and FTL must both be priced and compared. Protect-from-freeze handling only, not full refrigeration. Detention occurs 1-2 times a month but the rep committed to showing the rate rather than modelling hours into the monthly total."
+    }
+  ],
+  "total_monthly_shipments": 30,
+  "blockers": []
+}

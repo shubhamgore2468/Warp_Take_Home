@@ -1,0 +1,64 @@
+{
+  "call_id": "call_01_northwind",
+  "customer": {
+    "company": "Northwind Paper Co.",
+    "contact": "Marcus",
+    "industry": "Paper and packaging distribution"
+  },
+  "deal_summary": "Northwind Paper Co. moves 40 shipments a month across 1 lane(s) we can serve today, in the paper and packaging distribution space. Pricing below is built from our published rate card, broken out line by line so nothing is buried.",
+  "lanes": [
+    {
+      "origin_metro": "Chicago",
+      "origin_state": "IL",
+      "dest_metro": "Atlanta",
+      "dest_state": "GA",
+      "lane_id": "L001",
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "pallets_per_shipment": 8,
+      "weight_lb_per_pallet": 600,
+      "weight_lb_per_shipment": 4800,
+      "shipments_per_month": 40,
+      "service_level": "STANDARD",
+      "accessorials": [
+        "LIFTGATE_DEL"
+      ],
+      "mode_quoted": "LTL",
+      "mode_alternatives": [],
+      "transit_days": 3,
+      "pricing": {
+        "linehaul": 889.69,
+        "fuel_surcharge": 164.59,
+        "accessorials": [
+          {
+            "code": "LIFTGATE_DEL",
+            "amount": 95.0
+          }
+        ],
+        "accessorials_total": 95.0,
+        "shipment_subtotal": 1149.28,
+        "discount_pct": 3.0,
+        "discount": 34.48,
+        "shipment_total": 1114.8,
+        "monthly_total": 44592.0
+      },
+      "rationale": "LTL at standard service. Volume and weight sit below the truckload thresholds."
+    }
+  ],
+  "volume_tier": {
+    "tier_name": "Growth",
+    "total_monthly_shipments": 40,
+    "discount_pct": 3.0
+  },
+  "monthly_total": 44592.0,
+  "annual_total": 535104.0,
+  "excluded": [],
+  "assumptions": [
+    "Pallet dimensions assumed standard 48x40 unless stated.",
+    "Rates hold at the stated monthly volume; a material drop moves the volume tier."
+  ],
+  "open_questions": [
+    "Confirm receiving hours and any appointment lead time.",
+    "Confirm the volume commitment period."
+  ]
+}

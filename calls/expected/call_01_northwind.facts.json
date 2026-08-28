@@ -1,0 +1,29 @@
+{
+  "call_id": "call_01_northwind",
+  "customer": {
+    "company": "Northwind Paper Co.",
+    "contact": "Marcus",
+    "industry": "Paper and packaging distribution"
+  },
+  "lanes": [
+    {
+      "origin_metro": "Chicago",
+      "origin_state": "IL",
+      "dest_metro": "Atlanta",
+      "dest_state": "GA",
+      "pallets_per_shipment": 8,
+      "weight_lb_per_pallet": 600,
+      "shipments_per_month": 40,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [
+        "LIFTGATE_DEL"
+      ],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "No dock at the Atlanta branch. Chicago origin has dock and forklift."
+    }
+  ],
+  "total_monthly_shipments": 40,
+  "blockers": []
+}

@@ -1,0 +1,22 @@
+CALL: call_03_summit
+DATE: 2026-08-19
+REP: Dana Whitfield (Warp)
+CUSTOMER: Summit Trail Gear
+
+[00:00] REP: Tell me about the lanes that matter most to you right now.
+[00:05] CUSTOMER: Two of them. The one that's working okay is Los Angeles to Phoenix. The one that's a mess is out of our Boise facility.
+[00:17] REP: Let's do LA to Phoenix first since it's clean.
+[00:21] CUSTOMER: That's ten pallets a shipment, twelve shipments a month. Outdoor gear, tents and packs, so it's bulky but light. Maybe two hundred pounds a pallet.
+[00:34] REP: Any accessorials?
+[00:37] CUSTOMER: Nope. Dock to dock, both ends. Standard service.
+[00:43] REP: Easy. Now tell me about Boise.
+[00:47] CUSTOMER: We opened a fulfillment site in Boise last year and it's been a nightmare to serve. We need to move freight from Boise down to Salt Lake City. About fifteen shipments a month, six pallets each.
+[01:03] REP: Boise to Salt Lake. Same kind of freight?
+[01:07] CUSTOMER: Same product mix, yeah. Light, bulky. Maybe two-fifty a pallet. And Salt Lake needs a liftgate, that site has no dock either.
+[01:19] REP: Understood. I want to be straight with you on Boise rather than guess at a number. Let me check what we actually have priced there.
+[01:29] CUSTOMER: Please. The last vendor quoted me a rate on Boise and then re-traded it twice after we signed. I'd rather hear "we need to build that lane" than get a number that moves.
+[01:43] REP: That's exactly how I'd rather run it too. What's the timeline pressure on Boise?
+[01:50] CUSTOMER: We'd want it inside a quarter. It's not day-one critical, but it's the reason I took this call.
+[01:59] REP: Good to know. And LA to Phoenix, is that something you'd move now or does it wait for a package deal?
+[02:07] CUSTOMER: I'd move LA to Phoenix now if the number works. I don't want to hold up the thing that's ready for the thing that isn't.
+[02:17] REP: That's helpful. I'll show you firm pricing on what we serve today and be explicit about what I can't price yet.

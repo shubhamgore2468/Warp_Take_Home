@@ -1,0 +1,6 @@
+key,value,notes
+fuel_surcharge_pct,18.50,Percent applied to linehaul after the service multiplier
+detention_free_hours,2,Hours of free loading or unloading time before detention bills
+ftl_pallet_threshold,12,At or above this pallet count per shipment quote FTL as well as LTL
+ftl_weight_threshold_lb,10000,At or above this weight per shipment quote FTL as well as LTL
+ltl_max_pallets,24,Above this a single LTL shipment is not valid

@@ -1,0 +1,4 @@
+code,name,linehaul_multiplier,transit_days_delta,notes
+STANDARD,Standard,1.00,0,Default service
+EXPEDITED,Expedited,1.35,-1,Team or priority dispatch; minimum 1 transit day
+GUARANTEED,Guaranteed date,1.20,0,Standard transit with a date guarantee

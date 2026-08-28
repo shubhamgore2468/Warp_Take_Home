@@ -1,0 +1,46 @@
+{
+  "call_id": "call_02_brightline",
+  "customer": {
+    "company": "Brightline Housewares",
+    "contact": "Priya",
+    "industry": "Housewares"
+  },
+  "lanes": [
+    {
+      "origin_metro": "Newark",
+      "origin_state": "NJ",
+      "dest_metro": "Charlotte",
+      "dest_state": "NC",
+      "pallets_per_shipment": 7,
+      "weight_lb_per_pallet": 300,
+      "shipments_per_month": 45,
+      "service_level": "GUARANTEED",
+      "mode_requested": null,
+      "accessorials": [
+        "APPOINTMENT"
+      ],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "Customer corrected pallets 6 -> 7 and settled monthly count at 45 from a 40-50 range. Asked to also see STANDARD as an alternative."
+    },
+    {
+      "origin_metro": "Newark",
+      "origin_state": "NJ",
+      "dest_metro": "Boston",
+      "dest_state": "MA",
+      "pallets_per_shipment": 4,
+      "weight_lb_per_pallet": 300,
+      "shipments_per_month": 8,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [
+        "LIFTGATE_DEL"
+      ],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "Retail back-door delivery, no dock."
+    }
+  ],
+  "total_monthly_shipments": 53,
+  "blockers": []
+}

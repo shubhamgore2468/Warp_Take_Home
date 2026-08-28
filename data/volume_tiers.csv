@@ -1,0 +1,5 @@
+tier_name,min_monthly_shipments,max_monthly_shipments,discount_pct
+Starter,0,24,0.00
+Growth,25,99,3.00
+Scale,100,249,6.00
+Enterprise,250,,9.00

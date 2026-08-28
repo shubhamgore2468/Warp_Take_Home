@@ -1,0 +1,46 @@
+{
+  "call_id": "call_03_summit",
+  "customer": {
+    "company": "Summit Trail Gear",
+    "contact": null,
+    "industry": "Outdoor gear"
+  },
+  "lanes": [
+    {
+      "origin_metro": "Los Angeles",
+      "origin_state": "CA",
+      "dest_metro": "Phoenix",
+      "dest_state": "AZ",
+      "pallets_per_shipment": 10,
+      "weight_lb_per_pallet": 200,
+      "shipments_per_month": 12,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [],
+      "serviceable": true,
+      "unserviceable_reason": null,
+      "notes": "Dock to dock both ends. Customer will move this lane independently of Boise."
+    },
+    {
+      "origin_metro": "Boise",
+      "origin_state": "ID",
+      "dest_metro": "Salt Lake City",
+      "dest_state": "UT",
+      "pallets_per_shipment": 6,
+      "weight_lb_per_pallet": 250,
+      "shipments_per_month": 15,
+      "service_level": "STANDARD",
+      "mode_requested": null,
+      "accessorials": [
+        "LIFTGATE_DEL"
+      ],
+      "serviceable": false,
+      "unserviceable_reason": "lane_not_in_rate_card",
+      "notes": "No published rate for Boise ID origin. Must not be priced. Customer explicitly prefers being told the lane needs building over receiving a number that later moves."
+    }
+  ],
+  "total_monthly_shipments": 12,
+  "blockers": [
+    "Boise ID to Salt Lake City UT is not a rate-carded lane; needs pricing built before it can be quoted."
+  ]
+}

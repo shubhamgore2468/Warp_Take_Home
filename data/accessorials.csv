@@ -1,0 +1,11 @@
+code,name,unit,rate,notes
+LIFTGATE_PU,Liftgate at pickup,per_shipment,95.00,Required when origin has no dock
+LIFTGATE_DEL,Liftgate at delivery,per_shipment,95.00,Required when destination has no dock
+RESIDENTIAL_DEL,Residential delivery,per_shipment,132.00,Non-commercial delivery address
+INSIDE_DEL,Inside delivery,per_shipment,118.00,Carrier moves freight past the threshold
+APPOINTMENT,Delivery appointment,per_shipment,48.00,Receiver requires a scheduled window
+LIMITED_ACCESS,Limited access location,per_shipment,110.00,Schools, military bases, construction sites
+DETENTION,Detention,per_hour,72.00,Billed after the free time in pricing_config
+PALLET_JACK,Pallet jack service,per_shipment,55.00,Driver-assisted unload without a dock
+SORT_SEGREGATE,Sort and segregate,per_pallet,26.00,Receiver requires freight split by SKU or store
+REEFER,Temperature controlled,per_pallet,38.00,Protect-from-freeze or chilled handling
